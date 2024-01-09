@@ -9,12 +9,9 @@ import java.util.Date;
  */
 
 
-public class Pessoa {
+public abstract class Pessoa {
 
     private String nome;
-    private Date dataNascimento;
-    private String cpf;
-
     private String sexo;
 
     /**
@@ -41,19 +38,5 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    /**
-     * Retorna a data (util.date)
-     * @return Date
-     */
-    public Date getDataNascimento() {
-        return dataNascimento;
-    }
 
-    /**
-     * seta a data de nascimento (util.date)
-     * @param dataNascimento
-     */
-    public void setDataNascimento(Date dataNascimento) {
-        this.dataNascimento = dataNascimento;
-    }
 }
