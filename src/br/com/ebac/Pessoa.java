@@ -15,12 +15,22 @@ public class Pessoa {
     private Date dataNascimento;
     private String cpf;
 
+    private String sexo;
+
     /**
      * Retorna o nome da Pessoa
      * @return String
      */
     public String getNome() {
         return nome;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
 
     /**
