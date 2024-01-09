@@ -37,7 +37,7 @@ public class ExercicioColecao {
 
     }
 
-    private static String leNome() {
+    public static String leNome() {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o nome: ");
